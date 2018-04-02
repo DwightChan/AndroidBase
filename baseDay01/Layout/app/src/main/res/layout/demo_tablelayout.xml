@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button android:text="该列可伸展" />
+
+        <Button android:text="该列可伸缩" />
+
+        <Button android:text="该列被隐藏" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView android:text="我向行方向伸展, 我可以很长"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:text="我向列方向收缩, 我可以很深" />
+
+    </TableRow>
+</TableLayout>
